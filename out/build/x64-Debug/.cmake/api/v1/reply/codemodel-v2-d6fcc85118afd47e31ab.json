@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ImGui",
+					"jsonFile" : "directory-ImGui-Debug-d5a70d9ce055772475b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ImGui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "NodeEditor",
+					"jsonFile" : "directory-NodeEditor-Debug-40b30872b12ac24cec65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "NodeEditor",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "AppCore",
+					"jsonFile" : "directory-AppCore-Debug-0af905f3961f74db3ed5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AppCore",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "AppMain",
+					"jsonFile" : "directory-AppMain-Debug-c8d3e76ff7ee4d47935a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AppMain",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "OverPrints",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "AppCore::@06c2773265da1f232975",
+					"jsonFile" : "target-AppCore-Debug-d5db9ebcec23e5dce795.json",
+					"name" : "AppCore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "AppMain::@3a43467095bc2b535a4c",
+					"jsonFile" : "target-AppMain-Debug-dc1e89236e345342e271.json",
+					"name" : "AppMain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ImGui::@0bdbba2afb1bf72c1429",
+					"jsonFile" : "target-ImGui-Debug-8f317e6d75685f6589cb.json",
+					"name" : "ImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NodeEditor::@e2225f166bed140f8983",
+					"jsonFile" : "target-NodeEditor-Debug-40ae89b4b920e1471e0e.json",
+					"name" : "NodeEditor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Nathan/Desktop/OverPrints/out/build/x64-Debug",
+		"source" : "C:/Users/Nathan/Desktop/OverPrints"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
